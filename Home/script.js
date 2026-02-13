@@ -4,10 +4,20 @@ const nextBtn = document.querySelector('.next');
 const prevBtn = document.querySelector('.prev');
 
 let currentIndex = 0;
-const cardsToShow = 3;
-const cardWidth = cards[0].offsetWidth + 20; // include margin
+
+function getCardsToShow() {
+  if (window.innerWidth <= 600) return 1;
+  if (window.innerWidth <= 900) return 2;
+  return 3;
+}
+
+function updateCarousel() {
+  const cardWidth = cards[0].getBoundingClientRect().width;
+  track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+}
 
 nextBtn.addEventListener('click', () => {
+  const cardsToShow = getCardsToShow();
   const maxIndex = cards.length - cardsToShow;
 
   if (currentIndex < maxIndex) {
@@ -23,6 +33,7 @@ prevBtn.addEventListener('click', () => {
   }
 });
 
-function updateCarousel() {
-  track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-}
+window.addEventListener('resize', () => {
+  currentIndex = 0; // reset when screen changes
+  updateCarousel();
+});
