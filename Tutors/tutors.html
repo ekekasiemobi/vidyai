@@ -1,0 +1,445 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Accelgora Academy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom-columns.css">
+
+    <!-- FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+
+    <!-- ICON LINK  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <style>
+        * {
+            font-family: "Moderustic", sans-serif !important;
+            font-optical-sizing: auto !important;
+            font-style: normal !important;
+        }
+
+        .hero-button:hover {
+            /* background-color: none !important; */
+            border: solid white 1px !important;
+        }
+
+        .custom-color {
+            color: #3F3D56 !important;
+        }
+
+        .image-container {
+            height: 300px;
+            /* Set your desired fixed height */
+            width: 100%;
+            /* Set width as per your requirement */
+            overflow: hidden;
+            /* Hide the overflow content */
+            position: relative;
+            border-radius: 10px;
+            /*background-color:#FF9C00*/
+        }
+
+        /* Media query for small screens */
+
+        @media (max-width: 768px) {
+            .image-container {
+                height: 400px;
+                /* Reduced height for smaller screens */
+                background-color: white;
+            }
+        }
+
+        /* Media query for small screens */
+
+        @media (max-width: 1200px) {
+            .image-container {
+                height: 700px;
+                /* Reduced height for smaller screens */
+                background-color: white;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-container {
+                height: 280px;
+                /* Further reduced height for very small screens */
+                background-color: white;
+            }
+        }
+
+        .image-container img {
+            width: 100%;
+            /* Maintain the aspect ratio */
+            height: auto;
+            /* Auto height to prevent stretching */
+            display: block;
+            /* Ensure image takes full width of the container */
+            position: relative;
+            top: 0;
+            /* Align the image to the top */
+            border-radius: 10px;
+        }
+
+        .custom-container {
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%;
+        }
+
+        @media only screen and (min-width: 601px) {
+            .custom-container {
+                width: 85%;
+            }
+        }
+
+        @media only screen and (min-width: 993px) {
+            .custom-container {
+                width: 70%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <!-- #FF9C00 -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header ">
+                <div class="header-bottom  header-sticky" style="background-color: #2c98e6;">
+                    <div class="container" style="background-color: #2c98e6;">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.php" style="font-size: 20px; font-weight: bold;">
+                                        <img src="assets/img/logo/logo.png" style="width: 12%;" alt="">
+                                        Accelgora Academy
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-9">
+                                <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li class="active"><a href="../Home/index.html">Home</a></li>
+                                                <li><a href="../Home/index.html#courses">Courses</a></li>
+                                                <li><a href="../About/aboutus.html">About</a></li>
+                                                <li><a href="../Tutors/tutors.html">Tutors</a></li>
+                                                <li><a href="../Contact/contact.html">Contact</a></li>
+                                                <!-- <li><a href="kidstraining" class="hide-on-med-and-up">Training for Kids</a></li> -->
+                                                <!-- <li><a href="kidstraining" class="hide-on-small-only"><button style="background-color:#FF9C00;border:none; border-radius:4px; padding:10px; padding-left:18px; padding-right:18px; cursor:pointer">Training for Kids</button></a></li> -->
+                                                <!-- Button -->
+                                                <!-- <li class="button-header margin-left "><a href="#" class="btn">Join</a>
+                                                </li>
+                                                <li class="button-header"><a href="login.php" class="btn btn3">Log
+                                                        in</a></li> -->
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/672a4f452480f5b4f59914cd/1ibukba50';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+        <!-- Header End -->
+    </header>
+    <main>
+
+        <!--? slider Area Start-->
+        <section class="slider-area slider-area2">
+            <div class="slider-active" style="background-color: #2c98e6;">
+                <!-- Single Slider -->
+                <div class="single-slider slider-height2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-11 col-md-12">
+                                <div class="hero__caption hero__caption2">
+                                    <h1 data-animation="bounceIn" data-delay="0.2s">Request a tutor</h1>
+                                    <!-- breadcrumb Start-->
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                            <li class="breadcrumb-item"><a href="#">Tutors</a></li>
+                                        </ol>
+                                    </nav>
+                                    <!-- breadcrumb End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--? About Area-1 Start -->
+        <section> <br><br><br><br>
+            <div class="container custom-container align-items-center">
+                <div class="custom-row">
+                    <div class="col l12 s12 m12 pull-l1">
+                        <h3 style="color:#FF9C00; font-size:30px; font-weight:bold">Get expert tutors who can help you grow your tech skills</h3>
+                        <p>Our tutors are certified and have a strong background in the field, ensuring you're getting the best possible guidance and support.</p>
+                        <a href="request-tutor.php" class="btn btn-dark btn-sm" style="background-color:black !important;">Request tutor </a>'
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="custom-row">
+                    <div class="col l4 m12 s12 pull-l1">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-1.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Amina</h1>
+                            <p><span style="font-weight:500;">Location:</span> Nairobi, Kenya</p>
+                            <p><span style="font-weight:500;">Role:</span> Cyber security and networking</p>
+                            <p style="font-weight:500;">Experience:</span> 6 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> cyber security, Linux system Cloud</p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=3" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=3" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                    <div class="col l4 m12 s12 ">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-4.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Daniel  </h1>
+                            <p><span style="font-weight:500;">Location:</span> Texas USA </p>
+                            <p><span style="font-weight:500;">Role:</span> cloud computing and devOps </p>
+                            <p style="font-weight:500;">Experience:</span> 3 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> Expertise: AWS (EC2, S3, RDS) Infrastructure as Code Cloud architecture </p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=5" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=5" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                    <div class="col l4 m12 s12 push-l1">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-3.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Ezinne</h1>
+                            <p><span style="font-weight:500;">Location:</span> Abuja, Nigeria</p>
+                            <p><span style="font-weight:500;">Role:</span> UI/UX & Frontend Development</p>
+                            <p style="font-weight:500;">Experience:</span> 4 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> HTML, CSS, JavaScript React & Next.js Figma & UI Prototyping</p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=6" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=6" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                </div>
+                <div class="custom-row">
+                    <div class="col l4 m12 s12 pull-l1">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-2.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Mensah</h1>
+                            <p><span style="font-weight:500;">Location:</span> Ghana</p>
+                            <p><span style="font-weight:500;">Role:</span> Certified Graphics Designer </p>
+                            <p style="font-weight:500;">Experience:</span> 4 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> machine learning, Ai fundamentals, data visualization</p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=7" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=7" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                    <div class="col l4 m12 s12 ">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-6.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Thomson</h1>
+                            <p><span style="font-weight:500;">Location:</span> Manchester, uk</p>
+                            <p><span style="font-weight:500;">Role:</span> Mobile app Developer</p>
+                            <p style="font-weight:500;">Experience:</span> 7 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> Mobile App Development, React Native, JavaScript, API Integration</p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=8" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=8" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                    <div class="col l4 m12 s12 push-l1">
+                        <div class="image-container"> <img src="admin/assets/images/tutors/Kasiemobi Eke_2626.jpg" style="width:100%;" alt=""> </div>
+                        <div class="mt-5" style="heigh:240px">
+                            <h1 style="font-weight:bold; font-size:20px">Kasiemobi</h1>
+                            <p><span style="font-weight:500;">Location:</span> Abuja, Nigeria </p>
+                            <p><span style="font-weight:500;">Role:</span> Certified Software Developer</p>
+                            <p style="font-weight:500;">Experience:</span> 3 years </p>
+                            <p><span style="font-weight:500;">Courses:</span> React JS, React Native, PHP, Laravel & MYSQL</p>
+                        </div>
+                        <div style="height:150px"> <a href="tutor-details.php?id=9" class="btn btn-dark btn-sm" style="background-color:#FF9C00 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=9" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- About Area End -->
+
+
+    </main>
+    <footer> <br><br><br><br>
+        <div class="footer-wrappper footer-bg" style="background-color: #2c98e6;">
+            <!-- Footer Start-->
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.php" style="font-size: 22px; font-weight: bold;">
+                                            <!-- <img src="assets/img/logo/logo.png" alt=""> -->
+                                            Accelgora Academy
+                                        </a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Access comprehensive learning materials and expert insights to excel in your tech career.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- social -->
+                                    <div class="footer-social">
+                                        <a href="https://www.facebook.com/profile.php?id=61566506065609" target="_blank"><i class='bx bxl-facebook'></i></a>
+                                        <a href="https://x.com/accelgoraacadem" target="_blank"><i class='bx bxl-twitter'></i></a>
+                                        <a href="https://www.instagram.com/accelgoraacademy/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                                        <a href="https://www.linkedin.com/in/accelgoraacademy/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="../About/aboutus.html">About</a></li>
+                                        <li><a href="index.html#courses">Courses</a></li>
+                                        <li><a href="../Tutors/tutors.html">Tutors</a></li>
+                                        <!--<li><a href="#">FAQ</a></li>-->
+                                        <li><a href="../Contact/contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-3 col-md-4 col-sm-6">
+
+                            <h4 class="modal-title text-white" style="font-weight:bold; font-size:20px">Subscribe to Our Newsletter</h4>
+                            <p style="font-size:13px" class="text-white">Subscribe to our newsletter and never miss an update.</p>
+                            <form class="form-contact contact_form" action="" method="POST">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="email" id="email" required type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Enter your email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="submit" class="button button-contactForm boxed-btn" style="padding:12px; border-radius:2px; padding-left:35px; padding-right:35px;">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center">
+                                    <p>
+                                        Copyright &copy;
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script> All rights reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End-->
+        </div>
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" style="background-color: #FF9C00;">
+        <a title="Go to Top" href="#"> <i class='bx bx-chevron-up'></i></a>
+    </div>
+
+    <!-- JS here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
