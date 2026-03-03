@@ -2256,7 +2256,7 @@ hr {
   }
 }
 .main-header .main-menu ul li a {
-  color: #fff;
+  color: black;
   font-weight: 600;
   padding: 39px 2px;
   display: block;
@@ -2389,7 +2389,7 @@ hr {
   top: -27px;
 }
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #fff !important;
+  background-color: black !important;
 }
 .mobile_menu .slicknav_menu .slicknav_nav {
   margin-top: 9px !important;
