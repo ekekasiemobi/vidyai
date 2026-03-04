@@ -51,9 +51,18 @@
         .custom-color {
             color: #3F3D56 !important;
         }
+        .crop-image {
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .crop-image img {
+        width: 100%;
+        transform: translateY(-130px);
+        }
 
         .image-container {
-            height: 300px;
+            height: 350px;
             /* Set your desired fixed height */
             width: 100%;
             /* Set width as per your requirement */
@@ -68,7 +77,7 @@
 
         @media (max-width: 768px) {
             .image-container {
-                height: 400px;
+                height: 450px;
                 /* Reduced height for smaller screens */
                 background-color: white;
             }
@@ -250,7 +259,9 @@
 
                 <div class="custom-row">
                     <div class="col l4 m12 s12 pull-l1">
-                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-1.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="image-container crop-image"> 
+                            <img src="admin/assets/images/tutors/tutor-1.jpeg" style="width:100%;" alt=""> 
+                        </div>
                         <div class="mt-5" style="heigh:240px">
                             <h1 style="font-weight:bold; font-size:20px">Amina</h1>
                             <p><span style="font-weight:500;">Location:</span> Nairobi, Kenya</p>
@@ -261,7 +272,9 @@
                         <div style="height:150px"> <a href="tutor-details.php?id=3" class="btn btn-dark btn-sm" style="background-color:#777903 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=3" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
                     </div>
                     <div class="col l4 m12 s12 ">
-                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-4.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="image-container crop-image"> 
+                            <img src="admin/assets/images/tutors/tutor-4.jpeg" style="width:100%;" alt=""> 
+                        </div>
                         <div class="mt-5" style="heigh:240px">
                             <h1 style="font-weight:bold; font-size:20px">Daniel  </h1>
                             <p><span style="font-weight:500;">Location:</span> Texas USA </p>
@@ -296,7 +309,7 @@
                         <div style="height:150px"> <a href="tutor-details.php?id=7" class="btn btn-dark btn-sm" style="background-color:#777903 !important; width:100%">View Info</a> <br> <br> <a href="request-tutor.php?id=7" class="btn btn-dark btn-sm" style="background-color:#1F4643 !important; width:100%">Request tutor </a>                            </div>
                     </div>
                     <div class="col l4 m12 s12 ">
-                        <div class="image-container"> <img src="admin/assets/images/tutors/tutor-6.jpeg" style="width:100%;" alt=""> </div>
+                        <div class="image-container crop-image"> <img src="admin/assets/images/tutors/tutor-6.jpeg" style="width:100%;" alt=""> </div>
                         <div class="mt-5" style="heigh:240px">
                             <h1 style="font-weight:bold; font-size:20px">Thomson</h1>
                             <p><span style="font-weight:500;">Location:</span> Manchester, uk</p>
